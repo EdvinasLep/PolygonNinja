@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LinearAlgebra.cpp" />
+    <ClCompile Include="Collision.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KCircleShape.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KManifold.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KPolygonShape.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KRigidbody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KWorld.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KMath.cpp">
+      <Filter>LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="KMatrix2.cpp">
+      <Filter>LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="KVector2.cpp">
+      <Filter>LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="KVectorUtil.cpp">
+      <Filter>LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="KShapeUtil.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KInput.cpp" />
+    <ClCompile Include="KParticle.cpp" />
+    <ClCompile Include="KParticleSystem.cpp" />
+    <ClCompile Include="KParticleSystemData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinearAlgebra.h" />
+    <ClInclude Include="Collision.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KCircleShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KManifold.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KPolygonShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KRigidbody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KShape.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KWorld.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KBasis2.h">
+      <Filter>LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="KMath.h">
+      <Filter>LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="KMatrix2.h">
+      <Filter>LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="KScreenCoordinate.h">
+      <Filter>LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="KVector2.h">
+      <Filter>LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="KVectorUtil.h">
+      <Filter>LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="KPhysicsEngine.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KShapeUtil.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="KInput.h" />
+    <ClInclude Include="KParticle.h" />
+    <ClInclude Include="KParticleSystem.h" />
+    <ClInclude Include="KParticleSystemData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="LinearAlgebra.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{313bcdc3-16e4-4b24-a68f-bcdac3b3d1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinearAlgebra">
+      <UniqueIdentifier>{af911609-ad04-45e6-ad88-0c53383187b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{f0f80e60-88bd-4491-b010-1621d71d5ce4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LinearAlgebra.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

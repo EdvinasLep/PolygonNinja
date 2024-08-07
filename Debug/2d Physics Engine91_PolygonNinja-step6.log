@@ -1,0 +1,3 @@
+﻿  LinearAlgebra.cpp
+C:\Users\Edvinasas\Desktop\Year4\Workshop\Day14_FruitNinja\2d Physics Engine_PolygonNinjaAll_20240612\2d Physics Engine91_PolygonNinja-step6\LinearAlgebra.cpp(667,38): warning C4305: 'argument': truncation from 'double' to 'float'
+  2d Physics Engine91_PolygonNinja-step6.vcxproj -> C:\Users\Edvinasas\Desktop\Year4\Workshop\Day14_FruitNinja\2d Physics Engine_PolygonNinjaAll_20240612\Debug\2d Physics Engine91_PolygonNinja-step6.exe
